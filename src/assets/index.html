@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2D-PhaserJS-Gametemplate</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link
+			rel="stylesheet"
+			href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+		/>
+	</head>
+	<body>
+		<div id="no-js" style="text-align: center; display: block;">This Game uses JavaScript, please enable JavaScript.</div>
+		<script src="<%= htmlWebpackPlugin.files.chunks.vendors.entry %>"></script>
+		<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+	</body>
+</html>

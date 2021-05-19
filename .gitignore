@@ -1,0 +1,22 @@
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+*.suo
+*.sublime-project
+*.sublime-workspace
+
+# Cache files
+.cache
+
+# Vendors
+node_modules/
+
+# Build
+dist/
+/npm-debug.log
+
+# local developemnt files
+/assets
+/public/api/v1
+/public/api/additional-config.php
