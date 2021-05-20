@@ -13,6 +13,7 @@
 	"licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
 	"homepage": "",
 	"devDependencies": {
+		"@types/node": "^15.3.1",
 		"autoprefixer": "^8.6.0",
 		"awesome-typescript-loader": "^5.2.0",
 		"babel-core": "^6.26.3",
